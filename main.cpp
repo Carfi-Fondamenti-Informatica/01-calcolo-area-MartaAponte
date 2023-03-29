@@ -8,10 +8,16 @@ int main(){
   cout<<"inserire tre valori reali\n";
   cin >> a >> b >> c;
   //Qui va scritto il codice per eseguire i calcoli richiesti
-  cout << "Area Triangolo= " << a*b/2;
-  cout << "\nArea Quadrato= " << a*a;
-  cout << "\nArea Rettangolo= " << a*b;
-  cout << "\nArea Trapezio= " << (a+b)*c/2;
+  float areaTriangolo=0,areaQuadrato=0,areaRettangolo=0,areaTrapezio=0;
+  areaTriangolo= a*b/2;
+  areaQuadrato= a*a;
+  areaRettangolo= a*b;
+  areaTrapezio= (a+b)*c/2;
+  cout << "Area Triangolo = " << areaTriangolo << endl ;
+  cout << "Area Quadrato = " << areaQuadrato << endl ;
+  cout << "Area Rettangolo = " << areaRettangolo << endl ;
+  cout << "Area Trapezio= " << areaTrapezio << endl ;
+    
   
   
   return 0;
